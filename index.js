@@ -7,12 +7,12 @@ document.getElementById('imagenperfiljs').onmouseover = function () {
   };
 
 
-  const imagenperfiltouch = document.getElementById('imagenperfiljs');
+  const imagentouch = document.getElementById('imagenperfiljs');
 
-  imagenperfiltouch.ontouchstart = function() {
-    imagen.src = 'imagenes/obb2.png';
+  imagentouch.ontouchstart = function() {
+    imagentouch.src = 'imagenes/obb2.png';
   };
   
-  imagenperfiltouch.ontouchend = function() {
-    imagen.src = 'imagenes/obb.png';
+  imagentouch.ontouchend = function() {
+    imagentouch.src = 'imagenes/obb.png';
   };
